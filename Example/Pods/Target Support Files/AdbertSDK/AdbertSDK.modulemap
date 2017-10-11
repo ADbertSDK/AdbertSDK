@@ -1,0 +1,6 @@
+framework module AdbertSDK {
+  umbrella header "AdbertSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

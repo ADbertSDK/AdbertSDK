@@ -1,0 +1,6 @@
+framework module AdbertADs {
+  umbrella header "AdbertADs.h"
+
+  export *
+  module * { export * }
+}

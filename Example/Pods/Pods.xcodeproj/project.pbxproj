@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		712DCA186B890DFB10E413844A3E1254 /* AdbertSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22406849D376C972F57FCD1E85CD528B /* AdbertSDK-dummy.m */; };
+		89CA522717B1697E92ECF73735E98A2F /* Pods-AdbertSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F56E48501EEE6D28927CD394EB489E75 /* Pods-AdbertSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A1700A7F283648ECA06B5650F1035DC /* Pods-AdbertSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6232D055E10BDF9661AAB00EE11E2F94 /* Pods-AdbertSDK_Tests-dummy.m */; };
+		A20AEA6A7B0A18B322DEEE71DB30D67B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B8E288B01F8E057200DF30E0 /* AdbertADs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E288AF1F8E057200DF30E0 /* AdbertADs.framework */; };
+		D214BD0637F6CDB79ABD09C406671399 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EED6CE065FD2CA3A3ACE5096EB769C8 /* ReplaceMe.m */; };
+		E1C49990B0DA0A08B8054335AC58E473 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F822D67090A51C3FA620FEDA0129B888 /* AdbertSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1BEE2DC8C8CC7D0A9C3C2F36BD23BC /* AdbertSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF2455DD190727A11D961E8828DA47D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3BD24BFE1615924437647A72BE1409;
+			remoteInfo = AdbertSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17723851607C9CFBCD6082FC27B99AB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA070D69725B26D46833758C46FC179 /* Pods-AdbertSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdbertSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		22406849D376C972F57FCD1E85CD528B /* AdbertSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AdbertSDK-dummy.m"; sourceTree = "<group>"; };
+		2EED6CE065FD2CA3A3ACE5096EB769C8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		41E46C632096108307695A23FA675162 /* AdbertSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdbertSDK-prefix.pch"; sourceTree = "<group>"; };
+		4674672D45BC7656DEF0199618F283D4 /* Pods-AdbertSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdbertSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5FD11FC9E39E626EDC62FC75D407C720 /* Pods_AdbertSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdbertSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6232D055E10BDF9661AAB00EE11E2F94 /* Pods-AdbertSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdbertSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		71A374A39C56EB7A3B47EF843A355007 /* Pods-AdbertSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdbertSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7498A5D736F82A4A54673E718AB4DCBB /* AdbertSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AdbertSDK.modulemap; sourceTree = "<group>"; };
+		76E4FB8A8302B8BD58C808265D95BFF8 /* Pods-AdbertSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdbertSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A3866B1D001AD70727EC48CA628BAB0 /* Pods-AdbertSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdbertSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		85A768E810361BD7B280FB63369BF56E /* Pods-AdbertSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdbertSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B8E288AF1F8E057200DF30E0 /* AdbertADs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdbertADs.framework; sourceTree = "<group>"; };
+		C3C9FB29C7B9579FF027A43AA96A7F70 /* AdbertSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdbertSDK.xcconfig; sourceTree = "<group>"; };
+		C857E501E320A7CE3BA3BEC54EF8E836 /* Pods-AdbertSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AdbertSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D515893376DF220E20D0C9BE199C1DBC /* AdbertSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdbertSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1BEE2DC8C8CC7D0A9C3C2F36BD23BC /* AdbertSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdbertSDK-umbrella.h"; sourceTree = "<group>"; };
+		E2685FA263C0727C2ED39CF3EF0986CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56E48501EEE6D28927CD394EB489E75 /* Pods-AdbertSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdbertSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9407C9EC60ADAE01F72751EACD8D79F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20AEA6A7B0A18B322DEEE71DB30D67B /* Foundation.framework in Frameworks */,
+				B8E288B01F8E057200DF30E0 /* AdbertADs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D84C76BDE959163A557932C5395E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C49990B0DA0A08B8054335AC58E473 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D47706542B182562A44856277B7D95F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F54D81C47BF907993D94DD222F29C3CD /* Pods-AdbertSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		429C91991D8DBC47918F1FAB28D8467F /* AdbertSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FA0FB1B66CACF695C72B138DADCBC61F /* AdbertSDK */,
+				72BBE876813201347876337312A3C263 /* Support Files */,
+			);
+			name = AdbertSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		72BBE876813201347876337312A3C263 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7498A5D736F82A4A54673E718AB4DCBB /* AdbertSDK.modulemap */,
+				C3C9FB29C7B9579FF027A43AA96A7F70 /* AdbertSDK.xcconfig */,
+				22406849D376C972F57FCD1E85CD528B /* AdbertSDK-dummy.m */,
+				41E46C632096108307695A23FA675162 /* AdbertSDK-prefix.pch */,
+				DE1BEE2DC8C8CC7D0A9C3C2F36BD23BC /* AdbertSDK-umbrella.h */,
+				17723851607C9CFBCD6082FC27B99AB7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AdbertSDK";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				ADE42365259212D15F1DAB520CC121C1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C0CFF6252D3EFF4D9190AF9D711E28D1 /* Products */,
+				1D47706542B182562A44856277B7D95F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ADE42365259212D15F1DAB520CC121C1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				429C91991D8DBC47918F1FAB28D8467F /* AdbertSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0CFF6252D3EFF4D9190AF9D711E28D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D515893376DF220E20D0C9BE199C1DBC /* AdbertSDK.framework */,
+				5FD11FC9E39E626EDC62FC75D407C720 /* Pods_AdbertSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4ED783553EA21E80C3D5E6C685FFD25 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2EED6CE065FD2CA3A3ACE5096EB769C8 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F54D81C47BF907993D94DD222F29C3CD /* Pods-AdbertSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E2685FA263C0727C2ED39CF3EF0986CF /* Info.plist */,
+				C857E501E320A7CE3BA3BEC54EF8E836 /* Pods-AdbertSDK_Tests.modulemap */,
+				71A374A39C56EB7A3B47EF843A355007 /* Pods-AdbertSDK_Tests-acknowledgements.markdown */,
+				1EA070D69725B26D46833758C46FC179 /* Pods-AdbertSDK_Tests-acknowledgements.plist */,
+				6232D055E10BDF9661AAB00EE11E2F94 /* Pods-AdbertSDK_Tests-dummy.m */,
+				85A768E810361BD7B280FB63369BF56E /* Pods-AdbertSDK_Tests-frameworks.sh */,
+				7A3866B1D001AD70727EC48CA628BAB0 /* Pods-AdbertSDK_Tests-resources.sh */,
+				F56E48501EEE6D28927CD394EB489E75 /* Pods-AdbertSDK_Tests-umbrella.h */,
+				76E4FB8A8302B8BD58C808265D95BFF8 /* Pods-AdbertSDK_Tests.debug.xcconfig */,
+				4674672D45BC7656DEF0199618F283D4 /* Pods-AdbertSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-AdbertSDK_Tests";
+			path = "Target Support Files/Pods-AdbertSDK_Tests";
+			sourceTree = "<group>";
+		};
+		FA0FB1B66CACF695C72B138DADCBC61F /* AdbertSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B8E288AF1F8E057200DF30E0 /* AdbertADs.framework */,
+				F4ED783553EA21E80C3D5E6C685FFD25 /* Classes */,
+			);
+			path = AdbertSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BACCE6C1402954298384CE5979BDC33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F822D67090A51C3FA620FEDA0129B888 /* AdbertSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A62F4EF0782F25A3B2FFEB8147ADC79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CA522717B1697E92ECF73735E98A2F /* Pods-AdbertSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F3BD24BFE1615924437647A72BE1409 /* AdbertSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568BBFD50C081A5072D788215CC6C7F3 /* Build configuration list for PBXNativeTarget "AdbertSDK" */;
+			buildPhases = (
+				63B71797B994827B22C4C6CD03AE01C0 /* Sources */,
+				9407C9EC60ADAE01F72751EACD8D79F6 /* Frameworks */,
+				2BACCE6C1402954298384CE5979BDC33 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdbertSDK;
+			productName = AdbertSDK;
+			productReference = D515893376DF220E20D0C9BE199C1DBC /* AdbertSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DC90AA4D0B3D0208213FB0442214D6C /* Pods-AdbertSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64AAFE66D1AC5BBC85515C21AE7685F0 /* Build configuration list for PBXNativeTarget "Pods-AdbertSDK_Tests" */;
+			buildPhases = (
+				58852781D445D02B26DF1DED1C26318F /* Sources */,
+				A3D84C76BDE959163A557932C5395E9A /* Frameworks */,
+				3A62F4EF0782F25A3B2FFEB8147ADC79 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FB5238D55557162F69A5728F21E7EE5 /* PBXTargetDependency */,
+			);
+			name = "Pods-AdbertSDK_Tests";
+			productName = "Pods-AdbertSDK_Tests";
+			productReference = 5FD11FC9E39E626EDC62FC75D407C720 /* Pods_AdbertSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C0CFF6252D3EFF4D9190AF9D711E28D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3BD24BFE1615924437647A72BE1409 /* AdbertSDK */,
+				9DC90AA4D0B3D0208213FB0442214D6C /* Pods-AdbertSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58852781D445D02B26DF1DED1C26318F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1700A7F283648ECA06B5650F1035DC /* Pods-AdbertSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B71797B994827B22C4C6CD03AE01C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712DCA186B890DFB10E413844A3E1254 /* AdbertSDK-dummy.m in Sources */,
+				D214BD0637F6CDB79ABD09C406671399 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FB5238D55557162F69A5728F21E7EE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AdbertSDK;
+			target = 3F3BD24BFE1615924437647A72BE1409 /* AdbertSDK */;
+			targetProxy = DF2455DD190727A11D961E8828DA47D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0661C0C93A53E8072482D5A287E6557E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4674672D45BC7656DEF0199618F283D4 /* Pods-AdbertSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AdbertSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdbertSDK_Tests/Pods-AdbertSDK_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdbertSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		32E89F77342EBF6C1640EEE5C9BA0808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C9FB29C7B9579FF027A43AA96A7F70 /* AdbertSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AdbertSDK/AdbertSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AdbertSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AdbertSDK/AdbertSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AdbertSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F2D13739BA4062E0BA0E5D1893AD170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C9FB29C7B9579FF027A43AA96A7F70 /* AdbertSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AdbertSDK/AdbertSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AdbertSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AdbertSDK/AdbertSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AdbertSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B72B8F9D17563C66C2C0D3979AFEFD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E4FB8A8302B8BD58C808265D95BFF8 /* Pods-AdbertSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AdbertSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdbertSDK_Tests/Pods-AdbertSDK_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdbertSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */,
+				862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568BBFD50C081A5072D788215CC6C7F3 /* Build configuration list for PBXNativeTarget "AdbertSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E89F77342EBF6C1640EEE5C9BA0808 /* Debug */,
+				7F2D13739BA4062E0BA0E5D1893AD170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64AAFE66D1AC5BBC85515C21AE7685F0 /* Build configuration list for PBXNativeTarget "Pods-AdbertSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72B8F9D17563C66C2C0D3979AFEFD7F /* Debug */,
+				0661C0C93A53E8072482D5A287E6557E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
