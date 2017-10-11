@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AdbertSDK_Tests' do
+  pod 'AdbertSDK', :path => '../'
+  
+  
+end
